@@ -1,5 +1,5 @@
 FROM node:16.20.1
-WORKDIR devspace_server
+WORKDIR /server
 COPY . .
 RUN npm install --force
 EXPOSE 3001
